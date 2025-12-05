@@ -20,15 +20,15 @@ A flexible, modular pipeline built for research, experimentation, and developmen
 
 ## 🌟 Features
 
-- 🎯 **Face Detection** powered by a YOLOv8 face model  
-- 😊 **Emotion Classification** using a trained YOLO emotion model  
-- 🎥 **Real-Time Annotation** with bounding boxes + emotion labels  
-- 🧩 **Modular Architecture** with separate detection/classification modules  
-- 📸 **Optional Frame Extraction** for dataset creation and analysis  
+-  **Face Detection** powered by a YOLOv8 face model  
+-  **Emotion Classification** using a trained YOLO emotion model  
+-  **Real-Time Annotation** with bounding boxes + emotion labels  
+-  **Modular Architecture** with separate detection/classification modules  
+-  **Optional Frame Extraction** for dataset creation and analysis  
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```plaintext
 Project Aura/
