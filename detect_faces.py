@@ -1,15 +1,15 @@
-import cv2
 from ultralytics import YOLO
+import cv2
 import os
 
 def detect_faces(
         video_path="Australia.mp4",
         output_frames="frames",
         output_crops="face_crops",
-        model_path="yolov8n-face.pt"
+        model_path = "yolov8m-face-lindevs.pt"
     ):
 
-    print("🔍 Loading YOLO face model...")
+    print(" Loading YOLO face model...")
     model = YOLO(model_path)
 
     # Ensure folders exist
@@ -68,14 +68,14 @@ def detect_faces(
 
         # Press Q to quit early
         if cv2.waitKey(1) & 0xFF == ord('q'):
-            print("🛑 Exiting early...")
+            print(" Exiting early...")
             break
 
         frame_index += 1
 
     cap.release()
     cv2.destroyAllWindows()
-    print("✅ Face detection complete.")
+    print(" Face detection complete.")
 
 
 if __name__ == "__main__":

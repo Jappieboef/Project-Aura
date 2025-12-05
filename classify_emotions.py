@@ -69,6 +69,7 @@ def analyze_emotions(
 
             # Save to JSON results
             results[crop_name] = emo_dict
+            print("done")
 
             # WRITE emotion label ONTO FRAME
             # Grab the face bounding box from YOLO filename
